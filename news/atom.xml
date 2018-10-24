@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>HCI AO testbed website</title>
-	<link href="http://highconaotools.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://highconaotools.github.io/blog"/>
+	<link href="http://highconaotools.github.io/news/atom.xml" rel="self"/>
+	<link href="http://highconaotools.github.io/news"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://highconaotools.github.io/blog</id>
+	<id>http://highconaotools.github.io/news</id>
 	<author>
 		<name>HCI people</name>
 		<email>highcontrastlabs@gmail.com</email>

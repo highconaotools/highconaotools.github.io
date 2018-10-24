@@ -1,3 +1,3 @@
 name: High Contrast and Adaptive Optics laboratory testbeds community website
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /news/:year/:month/:day/:title
