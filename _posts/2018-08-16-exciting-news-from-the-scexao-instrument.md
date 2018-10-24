@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "The Keck Planet Imager and Characterizer Awakens"
-date: 2018-07-31
+title: "Exciting news from teh SCExAO instrument"
+date: 2018-08-16
 ---
 *Sébastien Vievard, Julien Lozi, Subaru telescope*
 
