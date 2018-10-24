@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Exciting news from teh SCExAO instrument"
+title: "Exciting news from the SCExAO instrument"
 date: 2018-08-16
 ---
 *Sébastien Vievard, Julien Lozi, Subaru telescope*
