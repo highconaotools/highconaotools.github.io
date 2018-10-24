@@ -4,13 +4,13 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>HCI AO testbeds homwpage</title>
+	<title>HCI AO testbed website</title>
 	<link href="http://highconaotools.github.io/blog/atom.xml" rel="self"/>
 	<link href="http://highconaotools.github.io/blog"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://highconaotools.github.io/blog</id>
 	<author>
-		<name>HCI AO testbeds</name>
+		<name>HCI people</name>
 		<email>highcontrastlabs@gmail.com</email>
 	</author>
 
