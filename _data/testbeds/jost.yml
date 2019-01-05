@@ -1,0 +1,9 @@
+shortname: jost
+fullname: James Webb Space Telescope Optical Simulation Testbed
+institute: Space Telescope Science Institute
+contact:
+  - name: Remi Soummer
+    github: soummer
+talkpeople:
+  - name: Iva Laginja
+  - github: ivalaginja
