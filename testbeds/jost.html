@@ -3,7 +3,7 @@ layout: default
 testbed: jost
 ---
 
-{% assign author = site.data.testbeds[page.testbed] %}
-<h1>
-  {{author.fullname}}
-</h1>
+{% assign testbed = site.data.testbeds[page.testbed] %}
+{% assign fullname = site.data.testbeds[testbed.fullname] %}
+{% assign shortname = site.data.testbeds[testbed.shortname] %}
+{% assign institute = site.data.testbeds[testbed.institute] %}
