@@ -2,10 +2,9 @@
 layout: testbeds
 testbed: jost
 ---
+<h1>{{ fullname }}</h1>
 
 {% assign testbed = site.data.testbeds[page.testbed] %}
 {% assign fullname = testbed.fullname %}
 {% assign shortname = testbed.shortname %}
 {% assign institute = testbed.institute %}
-
-<h1>{{ fullname }}</h1>
