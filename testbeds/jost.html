@@ -4,6 +4,6 @@ testbed: jost
 ---
 
 {% assign testbed = site.data.testbeds[page.testbed] %}
-{% assign fullname = site.data.testbeds[testbed.fullname] %}
-{% assign shortname = site.data.testbeds[testbed.shortname] %}
-{% assign institute = site.data.testbeds[testbed.institute] %}
+{% assign fullname = testbed.fullname %}
+{% assign shortname = testbed.shortname %}
+{% assign institute = testbed.institute %}
