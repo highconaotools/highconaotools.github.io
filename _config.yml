@@ -1,3 +1,5 @@
 name: High Contrast and Adaptive Optics laboratory testbeds community website
 markdown: kramdown
 permalink: /news/:year/:month/:day/:title
+
+theme: jekyll-theme-leap-day
