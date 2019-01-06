@@ -3,12 +3,12 @@ fullname: Très Haut Dynamique 2 benc
 institute: Observatoire de Paris
 contact:
   - name: Raphaël Galicher
-    github: 
+  - github: 
 talkpeople:
   - name: Raphaël Galicher
   - github:
   
-sciencefocus: Comparison of very high contrast imaging techniques for ground- and space-based telescopes: coronagraphy, apodization, wavefront sensing, DM controls, coherent differential imaging at 1e-9 contrast levels from 500 to 900 nm.
+sciencefocus: "Comparison of very high contrast imaging techniques for ground- and space-based telescopes: coronagraphy, apodization, wavefront sensing, DM controls, coherent differential imaging at 1e-9 contrast levels from 500 to 900 nm."
 environment: Clean room, controlled in temperature and humidity.
 hardwareitems:
   - 1: 3 BMC DMs in cascades
@@ -17,7 +17,7 @@ hardwareitems:
   - 4: 3 laser diodes (640nm, 700nm, 785nm)
   - 5: one supercontinuum source (with lots of narrow/broad filters from 500nm to 900nm) 
 
-currentstatus: On activity with multiple of collaborations see http://thd-bench.lesia.obspm.fr/
+currentstatus: "On activity with multiple of collaborations see http://thd-bench.lesia.obspm.fr/"
 software:
   - 1: Labview for bench control
   - 2: IDL for calculations
