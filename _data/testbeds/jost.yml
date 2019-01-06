@@ -5,5 +5,50 @@ contact:
   - name: Remi Soummer
     github: soummer
 talkpeople:
+  - name: Remi Soummer
+  - github: soummer
+  
   - name: Iva Laginja
   - github: ivalaginja
+  
+sciencefocus: The JWST Optical Simulation Testbed (JOST) is a tabletop experiment to simulate the main aspects of wavefront sensing and control (WFS&C) for a segmented space telescope, including both commissioning and maintenance. JOST has an optical design using three aspheric lenses that reproduces the physics of JWST's three-mirror anastigmat. A segmented deformable mirror stands in for the segmented primary. The optical system provides equivalent sampling and image quality as a JWST NIRCam module, but at HeNe wavelength. With 59 degrees of freedom, we can implement many commissioning activities such as phase retrieval algorithm validation studies with a hexagonally segmented DM, test validation of pupil imaging lens concepts and designs, investigate field-dependence (multiple field point sensing and control), test wavefront control software, and train and develop staff expertise.
+environment: JOST is located on a floating table in a class 10000 clean room, in a dark optical enclosure.
+hardwareitems:
+  - 1: Fiber source as star simulator, monochromatic laser at 638 nm.
+  - 2: Steering mirror (tip/tilt) in order to explore a wide field of view.
+  - 3: JWST-like pupil mask including the central obscuration and three struts.
+  - 4: Three custom lenses in form of a Cooke triplet, i. e. a refracting anastigmat.
+  - 5: IrisAO segmented mirror with hexagonal elements each 1.4 mm in diameter (total mirror: 7 mm), in a JWST-like configuration.
+  - 6: Pupil imaging lens in order to obtain pupil images of the setup.
+  - 7: ZWO ASI1600MM monochrome CMOS camera on a translation rail to allow for focus diversity in the images.
+
+currentstatus: ZWO ASI1600MM monochrome CMOS camera on a translation rail to allow for focus diversity in the images.
+software:
+  - 1: Python
+  - 2: some IDL
+shared: Will be shared code with HiCAT in the future.
+papers:
+  - title: James Webb Space Telescope Optical Simulation Testbed I: Overview and First Results
+  - firstauthor: Perrin
+  - year:
+  - link: https://arxiv.org/abs/1407.0591
+  
+  - title: James Webb Space Telescope Optical Simulation Testbed II. Design of a Three-Lens Anastigmat Telescope Simulator
+  - firstauthor: Choquet
+  - year: 2014
+  - link: https://arxiv.org/abs/1406.7513
+  
+  - title: James Webb Space Telescope optical simulation testbed III: first experimental results with linear-control alignment
+  - firstauthor: Egron
+  - year:
+  - link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9904/1/James-Webb-Space-Telescope-optical-simulation-testbed-III--first/10.1117/12.2233650.full?SSO=1
+  
+  - title: James Webb Space Telescope optical simulation testbed IV: linear control alignment of the primary segmented mirror
+  - firstauthor: Egron
+  - year:
+  - link: https://spie.org/Publications/Proceedings/Paper/10.1117/12.2272981
+  
+  - title: James Webb Space Telescope Optical Simulation Testbed V: Wide-field phase retrieval assessment
+  - firstauthor: Laginja
+  - year: 2018
+  - link
