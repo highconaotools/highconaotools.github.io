@@ -24,7 +24,7 @@ software:
   - 2: C++
 shared: Subsystem development and testing.
 papers:
-  - title: The segmented aperture interferometric nulling testbed (SAINT) III: control systems analysis and preliminary results
+  - title: "The segmented aperture interferometric nulling testbed (SAINT) III: control systems analysis and preliminary results"
   - firstauthor: Hicks
   - year: 
-  - link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10698/106986M/The-segmented-aperture-interferometric-nulling-testbed-SAINT-III--control/10.1117/12.2318756.short?SSO=1
+  - link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10698/106986M/The-segmented-aperture-interferometric-nulling-testbed-SAINT-III--control/10.1117/12.2318756.short?SSO=1"
