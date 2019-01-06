@@ -28,7 +28,8 @@ hardwareitems:
   - 8: Andor Neo sCMOS camera.
   - 9: Fiber Injection Unit for High Dispersion Coronagraphy.
 
-currentstatus:  The optical platform is the central structural hub of HOT. The stainless steel table measures 1.5 x 3.5 m and is tapped with the standard M6 screw size on a 25 mm grid. All four "floating" legs of the optical platform have vibration damping servomechanisms that eliminate surrounding floor vibrations. the AO laboratory is also outfitted with two oxygen level sensors that will trigger a local alarm if the oxygen levels in the room drop below 19.0%. 
+currentstatus: Previously, HOT was equipped with both a SHS and a PWS. While SHSs and PWSs perform equally in regard to aberrations of spatial frequencies near to fc, the PWS performs much better in regard to low-order aberrations. Therefore, we have decided to focus our research only on PWS technologies, for their resolution is limited by the diameter of the telescope aperture and not by the diameter of the lenslets. 
+Also, for future demonstrations regarding the XAO capabilities of HOT, it is important that a faint secondary light source can be provided to simulate an faint stellar companion. Therefore, an adjustable stage to input a secondary light source was designed, manufactured in-house, and installed on the TG. Finally, it was decided to remove optical elements in the coronagraph path that were not being used. One focal point was left in the science path for introduction of a simple coronagraph. A vortex coronagraph from Thorlabs was acquired and it is planned to be integrated. 
 software:
   - 1: C++
   - 2: Matlab
