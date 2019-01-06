@@ -15,7 +15,7 @@ sciencefocus: HiCAT is designed to provide an integrated solution for high-contr
 environment: HiCAT is located in a class 1000 clean room with temperate control in a 1°C range and humidity that is maintained under 40%. Furthermore, the testbed is on a floating table, which is on a platform independent from the rest of the building, to remove vibration effects. A box covers all the testbed to protect it from dust and particles. In addition to these first protections, the deformable mirrors have stronger constraints, in particular about humidity (below 30%), which lead to the installation of temperature and humidity sensors and a complementary dry air system inside the box containing the optical bench.
 hardwareitems:
   - 1: The star is simulated thanks to a fiber source, brought to infinity thanks to an off-axis parabola.
-  - 2: The telescope pupil is defined using two different components, set in two consecutive pupil planes: a pupil mask, to define the edges of the telescope, including the central obstruction and the spiders, and a segmented mirror (Iris-AO) of 37 segments that can be controlled in piston, tip, and tilt.
+  - 2: "The telescope pupil is defined using two different components, set in two consecutive pupil planes: a pupil mask, to define the edges of the telescope, including the central obstruction and the spiders, and a segmented mirror (Iris-AO) of 37 segments that can be controlled in piston, tip, and tilt."
   - 3: The starlight is suppressed thanks to a Apodized Lyot Coronagraph, that combines an apodizer, a focal plane mask, and a Lyot Stop.
   - 4: The wavefront control is done thanks to two deformable mirrors (Boston-Micromachines), one set in a pupil plane and one out of pupil plane, to correct for both phase and amplitude aberrations.
   - 5: The wavefront sensing is done thanks the final focal plane camera, set on a guiding rail for phase retrieval. Other techniques of wavefront sensing do not require the use of a guiding rail and combine the final camera with the pupil plane deformable mirror.
@@ -27,27 +27,27 @@ software:
   - 2: some Mathematics
 shared: Currently only within the Russell B. Makidon Optics Lab, public in the future.
 papers:
-  - title: High-contrast imager for complex aperture telescopes (HiCAT): 1. testbed design
+  - title: "High-contrast imager for complex aperture telescopes (HiCAT): 1. testbed design"
   - firstauthor: N'Diaye
   - year:
-  - link: https://spie.org/Publications/Proceedings/Paper/10.1117/12.2023718
+  - link: "https://spie.org/Publications/Proceedings/Paper/10.1117/12.2023718"
   
-  - title: High-contrast Imager for Complex Aperture Telescopes (HICAT): II. Design overview and first light results
+  - title: "High-contrast Imager for Complex Aperture Telescopes (HICAT): II. Design overview and first light results"
   - firstauthor: N'Diaye
   - year: 
   - link: https://spie.org/Publications/Proceedings/Paper/10.1117/12.2056694
   
-  - title: High-contrast imager for complex aperture telescopes (HiCAT): 3. first lab results with wavefront control
+  - title: "High-contrast imager for complex aperture telescopes (HiCAT): 3. first lab results with wavefront control"
   - firstauthor: N'Diaye
   - year:
-  - link: https://spie.org/Publications/Proceedings/Paper/10.1117/12.2188497
+  - link: "https://spie.org/Publications/Proceedings/Paper/10.1117/12.2188497"
   
   - title: High-contrast imager for Complex Aperture Telescopes (HiCAT). 4. Status and wavefront control development
   - firstauthor: Leboulleux
   - year:
-  - link: https://spie.org/Publications/Proceedings/Paper/10.1117/12.2233640
+  - link: "https://spie.org/Publications/Proceedings/Paper/10.1117/12.2233640"
   
   - title: Comparison of wavefront control algorithms and first results on the high-contrast imager for complex aperture telescopes (hicat) testbed,
   - firstauthor: Leboulleux
   - year: 
-  - link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10562/2296154/Comparison-of-wavefront-control-algorithms-and-first-results-on-the/10.1117/12.2296154.full?SSO=1
+  - link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10562/2296154/Comparison-of-wavefront-control-algorithms-and-first-results-on-the/10.1117/12.2296154.full?SSO=1"
