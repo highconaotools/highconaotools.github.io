@@ -22,7 +22,7 @@ hardwareitems:
   - 6: Pupil imaging lens in order to obtain pupil images of the setup.
   - 7: ZWO ASI1600MM monochrome CMOS camera on a translation rail to allow for focus diversity in the images.
 
-currentstatus: ZWO ASI1600MM monochrome CMOS camera on a translation rail to allow for focus diversity in the images.
+currentstatus: All hardware is integrated and the overall optical alignment, including the three lenses and the IrisAO segmented mirror, have an rms wavefront error of under 40 nm rms and can be corrected down to 15 nm rms when the LAPD (Linearized Analytic Phase Diversity) algorithm is working in closed loop. Current goals are to test new phase retrieval algorithms for segmented apertures (Hybrid Diversity Algorithm - HDA, Geometric pHase Retrieval - GPR, and others) and upgrade the software to be compatible with the HiCAT code package.
 software:
   - 1: Python
   - 2: some IDL
