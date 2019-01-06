@@ -1,0 +1,33 @@
+shortname: speed
+fullname: Segmented Pupil Experiment for Exoplanet Detection
+institute: Laboratoire Lagrange
+contact:
+  - name: Patrice Martinez
+    github: 
+    
+  - name: Olivier Preis
+  - github:
+  
+talkpeople:
+  - name: Patrice Martinez
+    github: 
+  
+sciencefocus: High-contrast imaging at very small IWA.
+environment: ISO 7 room.
+hardwareitems:
+  - 1: IRIS AO segmented DM.
+  - 2: 2 Boston M. DMs.
+  - 3: PIAACMC.
+  - 4: SCC.
+  - 5: SCC-PS.
+  - 6: ZELDA-PS.
+
+currentstatus: AIT (see https://lagrange.oca.eu/fr/accueil-speed)
+  - 1: Matlab
+shared: In development.
+papers:
+  - title: 
+  - firstauthor: 
+  - year: 
+  - link: 
+
