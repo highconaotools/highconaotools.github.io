@@ -14,7 +14,7 @@ talkpeople:
   - name: Celia Blain
   - github:
   
-  -name: Olivier Lardiere
+  - name: Olivier Lardiere
   - github:
   
 sciencefocus: The laboratory main focus is to develop new technologies for high-contrast imaging for exoplanet imaging and their spectral characterization, testing new advance adaptive optics solutions, higher performing coronagraphs, and KHz visible/NIR focal plane wavefront sensing techniques. The laboratory will deliver end-to-end solutions for upgrading current generation of facility-class instruments, and for future ground- or space-based instruments.
