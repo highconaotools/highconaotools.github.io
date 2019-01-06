@@ -1,0 +1,35 @@
+shortname: vodca
+fullname: Vortex Optical Demonstrator for Coronagraphic Applications 
+institute: Space science, Technologies, and Astrophysics Research (STAR) Institute, University of Liège
+contact:
+  - name: Olivier Absil
+  - github: 
+  
+talkpeople:
+  - name: Olivier Absil
+  - github: 
+  
+  - name: Gilles Orban de Xivry
+  - github:
+  
+  - name: Christian Delacroix
+  - github: 
+  
+sciencefocus: The prime purpose of VODCA is to test and validate manufactured infrared vortex phase masks (and in particular Annular Groove Phase Masks) at the appropriate wavelengths: near- to mid- infrared corresponding to the H, K, L and M bands (1.5 to 4.6 um).
+environment: VODCA is located in a ISO 7 clean room (class 10000). The optical bench sits on an active vibration isolation system.
+hardwareitems:
+  - 1: supercontinuum laser source delivering single-mode broadband beam from approx. 1.5 to 4 um.
+  - 2: infrared InSb camera from FLIR, cooled to 77K and operating in the 1.5-5.5um wavelength range
+  - 3: ALPAO deformable mirror with 97 actuators
+  - 4: QCL laser producing a single-mode narrow-line emission at around 4.6 um
+
+currentstatus: In operation. The bench allows to reach the intrinsic on-axis rejection limit of the manufactured Annular Groove Phase Masks (up to a few 1000:1 in broad L-band).
+software:
+  - 1: Python
+  - 2: Labview
+shared: Not currently but could be useful.
+papers:
+  - title: 
+  - firstauthor: 
+  - year:
+  - link:
