@@ -6,6 +6,11 @@ testbed: jost
 {% assign fullname = testbed.fullname %}
 {% assign shortname = testbed.shortname %}
 {% assign institute = testbed.institute %}
+{% assign sciencefocus = testbed.sciencefocus %}
+{% assign environment = testbed.environment %}
+{% assign currentstatus = testbed.currentstatus %}
+{% assign shared = testbed.shared %}
+{% assign institute = testbed.institute %}
 
 <h1> {{ fullname }} </h1>
 
@@ -37,8 +42,8 @@ testbed: jost
     <td class="tg-0pky"><span style="font-weight:bold">Testbed environment</span></td>
   </tr>
   <tr>
-    <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">{{ sciencefocus }}</td>
+    <td class="tg-0pky">{{ environment }}</td>
   </tr>
   <tr>
     <td class="tg-0pky"><span style="font-weight:bold">Key hardware items</span></td>
@@ -46,7 +51,7 @@ testbed: jost
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">{{ currentstatus }}</td>
   </tr>
   <tr>
     <td class="tg-0pky"><span style="font-weight:bold">Software, languages</span></td>
@@ -54,6 +59,8 @@ testbed: jost
   </tr>
   <tr>
     <td class="tg-0pky"></td>
-    <td class="tg-0pky"></td>
+    <td class="tg-0pky">{{ shared }}</td>
   </tr>
 </table>
+
+<div>Papers:</div>
