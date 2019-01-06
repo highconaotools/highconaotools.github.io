@@ -33,7 +33,7 @@ hardwareitems:
   - 8: Andor Neo sCMOS camera.
   - 9: Fiber Injection Unit for High Dispersion Coronagraphy.
 
-currentstatus:  In air, active vibration isolation, passive thermal isolation (double enclosure).
+currentstatus: Operational, first light Spring 2018, first dark hole June 2018.
 software:
   - 1: Linux
   - 2: Matlab
