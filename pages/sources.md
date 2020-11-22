@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Links
-tagline: My friends.
-permalink: /links.html
+title: Sources
+tagline: Collecting code sources
+permalink: /sources.html
 ---
 
 
@@ -13,7 +13,7 @@ permalink: /links.html
 </div>
 {% endfor %}
 
-[返回主页]({{ site.url }})
+[Go back to home page]({{ site.url }})
 
 <hr/>
 
