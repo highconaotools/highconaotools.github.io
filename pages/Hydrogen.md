@@ -6,4 +6,4 @@ tagline: Biu~
 
 Lmao
 
-[返回主页]({{ site.url }})
+[Go back to home page]({{ site.url }})
