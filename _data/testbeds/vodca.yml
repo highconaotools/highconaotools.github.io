@@ -15,7 +15,7 @@ talkpeople:
   - name: Christian Delacroix
   - github: 
   
-sciencefocus: The prime purpose of VODCA is to test and validate manufactured infrared vortex phase masks (and in particular Annular Groove Phase Masks) at the appropriate wavelengths: near- to mid- infrared corresponding to the H, K, L and M bands (1.5 to 4.6 um).
+sciencefocus: "The prime purpose of VODCA is to test and validate manufactured infrared vortex phase masks (and in particular Annular Groove Phase Masks) at the appropriate wavelengths: near- to mid- infrared corresponding to the H, K, L and M bands (1.5 to 4.6 um)."
 environment: VODCA is located in a ISO 7 clean room (class 10000). The optical bench sits on an active vibration isolation system.
 hardwareitems:
   - 1: supercontinuum laser source delivering single-mode broadband beam from approx. 1.5 to 4 um.
