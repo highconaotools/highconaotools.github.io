@@ -2,35 +2,35 @@ shortname: newearthlab
 fullname: NEW WARTH Laboratory
 institute: National Research Council of Canada (Victoria, Canada)
 contact:
-  - name: Christian Marois
-  - github: 
+- name: Christian Marois
+- github:
 talkpeople:
-  - name: Christian Marois
-  - github: 
-  
-  - name: Ben Gerard
-  - github: 
-  
-  - name: Celia Blain
-  - github:
-  
-  - name: Olivier Lardiere
-  - github:
-  
+- name: Christian Marois
+- github:
+
+- name: Ben Gerard
+- github:
+
+- name: Celia Blain
+- github:
+
+- name: Olivier Lardiere
+- github:
+
 sciencefocus: The laboratory main focus is to develop new technologies for high-contrast imaging for exoplanet imaging and their spectral characterization, testing new advance adaptive optics solutions, higher performing coronagraphs, and KHz visible/NIR focal plane wavefront sensing techniques. The laboratory will deliver end-to-end solutions for upgrading current generation of facility-class instruments, and for future ground- or space-based instruments.
 environment: Class 10,000 clean room. Humidity/temperature control. 5'x10' floating air-cushion optical table. Building first floor.
 hardwareitems:
-  - 1: Infrared low noise C-RED2 camera
-  - 2: 468 Alpao DM (baseline, will be using a 277 Alpao at first)
-  - 3: HASO
-  - 4: Lyot & vortex coronagraphs
-  - 5: custom self-coherent camera focal plane mask.
+- 1: Infrared low noise C-RED2 camera
+- 2: 468 Alpao DM (baseline, will be using a 277 Alpao at first)
+- 3: HASO
+- 4: Lyot & vortex coronagraphs
+- 5: custom self-coherent camera focal plane mask.
 
 currentstatus: Assembling May/June 2018.
 software:
 shared: 
 papers:
-  - title: 
-  - firstauthor: 
-  - year:
-  - link: 
+- title:
+- firstauthor:
+- year:
+- link:

@@ -2,35 +2,35 @@ shortname: mithic
 fullname: Marseille Imaging Testbed for HIgh Contrast
 institute: Laboratoire d'Astrophysique de Marseille (LAM)
 contact:
-  - name: Arthur Vigan
-    github: 
+- name: Arthur Vigan
+  github:
 talkpeople:
-  - name: Arthur Vigan
-  - github:
-  
-  - name: Jean-Francois Sauvage
-  - github:
-  
+- name: Arthur Vigan
+- github:
+
+- name: Jean-Francois Sauvage
+- github:
+
 sciencefocus: The MITHIC bench is dedicated to the test of components and concepts for high-contrast imaging in ground-based applications. The bench was originally developed for the laboratory validation of the apodized Roddier coronagraph and the ZELDA wavefront sensor in a static environment. It now includes a residual turbulence simulator that enables testing concepts in a more realistic environment for ground-based XAO instruments. 
 The main scientific focus of MITHIC is currently 1/ the development of strategies to measure and compensate non-common path aberrations, and 2/ the validation of wavefront control techniques to improve the contrast in coronagraphic and non-coronagraphic images. Since 2018, MITHIC is used in the HiRISE project to validate acquisition and centering strategies for injection into single mode fibers. The latest results associated to MITHIC are: (1) phase conjugation loop with the ZELDA sensor (R. Pourcelot, A. Vigan, K. Dohlen) (2) preliminary dark hole on a non-coronographic PSF (L. Leboulleux, O. Herscovici-Schiller) (3) low-wind effect (LWE) compensation as measured on SPHERE (M. Wilby, J.-F. Sauvage) (4) NCPA measurement in presence of residual turbulence with COFFEE (O. Herscovici-Schiller, J.-F. Sauvage) and ZELDA (A. Carlotti, A. Vigan, R. Pourcelot)
 environment: The testbed is located in a grey room in the basement of LAM. The temperature and humidity are not controlled in the room. The bench is on a floating table to isolate it from vibrations of the building. An enclosure around the optical table is being designed to prevent dust and to limit local turbulence. 
 hardwareitems:
-  - 1: The star is simulated with a superluminescent diode at 670 nm injected into a polarisation maintaining single-mode fiber
-  - 2: The pupil of the telescope is defined by a non-obstructed circular pupil mask
-  - 3: A motorised phase screen manufactured by SILIOS Technologies is located in a conjugated pupil plane. This phase mask includes different static phase patterns (segments with piston/tip/tilt, VLT pupil with LWE, typical NCPA, etc) as well as two continuous strips of AO-filtered residual turbulence representative of VLT/SPHERE and ELT/HARMONI
-  - 4: Wavefront control is done thanks to a spatial light modulator (SLM) from Hamamatsu located in a second conjugated pupil plane
-  - 5: Wavefront sensing is performed with the ZELDA sensor on a Hamamatsu ORCA Flash 4.0 v3 camera
-  - 6: tellar suppression is done with a Roddier phase mask. An apodisation can be included for improved coronagraphic attenuation
-  - 7: The science image is obtained on a Photometrics CoolSNAP HQ2 camera
-  
+- 1: The star is simulated with a superluminescent diode at 670 nm injected into a polarisation maintaining single-mode fiber
+- 2: The pupil of the telescope is defined by a non-obstructed circular pupil mask
+- 3: A motorised phase screen manufactured by SILIOS Technologies is located in a conjugated pupil plane. This phase mask includes different static phase patterns (segments with piston/tip/tilt, VLT pupil with LWE, typical NCPA, etc) as well as two continuous strips of AO-filtered residual turbulence representative of VLT/SPHERE and ELT/HARMONI
+- 4: Wavefront control is done thanks to a spatial light modulator (SLM) from Hamamatsu located in a second conjugated pupil plane
+- 5: Wavefront sensing is performed with the ZELDA sensor on a Hamamatsu ORCA Flash 4.0 v3 camera
+- 6: tellar suppression is done with a Roddier phase mask. An apodisation can be included for improved coronagraphic attenuation
+- 7: The science image is obtained on a Photometrics CoolSNAP HQ2 camera
+
 currentstatus: The bench is fully functional but is currently undergoing an upgrade to be fully automated using a user interface software developed at LAM. The software enables controlling the coronagraphic and ZELDA masks on 3 axes, the residual turbulence phase screen in rotation and translation, the phase pattern displayed on the SLM and the acquisition of images for the wavefront sensor and science cameras. An enclosure will also be added in the coming months.
 software:
-  - 1: Python
-  - 2: some IDL
+- 1: Python
+- 2: some IDL
 shared: The software is mostly private, but relies on public modules such as pyZELDA. 
 papers:
-  - title: 
-  - firstauthor: 
-  - year:
-  - link: 
- 
+- title:
+- firstauthor:
+- year:
+- link:
+

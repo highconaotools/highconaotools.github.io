@@ -2,52 +2,52 @@ shortname: hicat
 fullname: High-contrast imager for Complex Aperture Telescope
 institute: Space Telescope Science Institute
 contact:
-  - name: Remi Soummer
-    github: soummer
+- name: Remi Soummer
+  github: soummer
 talkpeople:
-  - name: Remi Soummer
-  - github: soummer
-  
-  - name: Iva Laginja
-  - github: ivalaginja
-  
+- name: Remi Soummer
+- github: soummer
+
+- name: Iva Laginja
+- github: ivalaginja
+
 sciencefocus: HiCAT is designed to provide an integrated solution for high-contrast imaging for unfriendly aperture geometries in space, such as LUVOIR-like pupils. Such pupils include segment gaps, spiders and central obstruction. More precisely, HiCAT aims at developing methods for starlight and diffraction suppression system and wavefront sensing and control tools. 
 environment: HiCAT is located in a class 1000 clean room with temperate control in a 1°C range and humidity that is maintained under 40%. Furthermore, the testbed is on a floating table, which is on a platform independent from the rest of the building, to remove vibration effects. A box covers all the testbed to protect it from dust and particles. In addition to these first protections, the deformable mirrors have stronger constraints, in particular about humidity (below 30%), which lead to the installation of temperature and humidity sensors and a complementary dry air system inside the box containing the optical bench.
 hardwareitems:
-  - 1: The star is simulated thanks to a fiber source, brought to infinity thanks to an off-axis parabola.
-  - 2: "The telescope pupil is defined using two different components, set in two consecutive pupil planes: a pupil mask, to define the edges of the telescope, including the central obstruction and the spiders, and a segmented mirror (Iris-AO) of 37 segments that can be controlled in piston, tip, and tilt."
-  - 3: The starlight is suppressed thanks to a Apodized Lyot Coronagraph, that combines an apodizer, a focal plane mask, and a Lyot Stop.
-  - 4: The wavefront control is done thanks to two deformable mirrors (Boston-Micromachines), one set in a pupil plane and one out of pupil plane, to correct for both phase and amplitude aberrations.
-  - 5: The wavefront sensing is done thanks the final focal plane camera, set on a guiding rail for phase retrieval. Other techniques of wavefront sensing do not require the use of a guiding rail and combine the final camera with the pupil plane deformable mirror.
-  - 6: The testbed is also provided with a second camera, set in the final pupil plane.
+- 1: The star is simulated thanks to a fiber source, brought to infinity thanks to an off-axis parabola.
+- 2: "The telescope pupil is defined using two different components, set in two consecutive pupil planes: a pupil mask, to define the edges of the telescope, including the central obstruction and the spiders, and a segmented mirror (Iris-AO) of 37 segments that can be controlled in piston, tip, and tilt."
+- 3: The starlight is suppressed thanks to a Apodized Lyot Coronagraph, that combines an apodizer, a focal plane mask, and a Lyot Stop.
+- 4: The wavefront control is done thanks to two deformable mirrors (Boston-Micromachines), one set in a pupil plane and one out of pupil plane, to correct for both phase and amplitude aberrations.
+- 5: The wavefront sensing is done thanks the final focal plane camera, set on a guiding rail for phase retrieval. Other techniques of wavefront sensing do not require the use of a guiding rail and combine the final camera with the pupil plane deformable mirror.
+- 6: The testbed is also provided with a second camera, set in the final pupil plane.
 
 currentstatus: The testbed has been first aligned with flat mirrors instead of the two deformable mirrors, the segmented mirror, and the apodizer, to a wavefront error of 13nm rms. Since then, the two deformable mirrors and the segmented mirror have been set. Different apodizers have been installed and replaced, in particular a WFIRST apodizer (with a flat mirror instead of the segmented mirror) and a LUVOIR-like apodizer (with the segmented mirror), providing full apodized Lyot coronagraphs. A Speckle Nulling WFC technique is implemented and has been fully running in both these cases in monochromatic light. Two methods of WFS (COFFEE and phase retrieval) and one method of WFC (Non-linear dark hole) are under development and will be tested soon.
 software:
-  - 1: Python
-  - 2: some Mathematics
+- 1: Python
+- 2: some Mathematics
 shared: Currently only within the Russell B. Makidon Optics Lab, public in the future.
 papers:
-  - title: "High-contrast imager for complex aperture telescopes (HiCAT): 1. testbed design"
-  - firstauthor: N'Diaye
-  - year:
-  - link: "https://spie.org/Publications/Proceedings/Paper/10.1117/12.2023718"
-  
-  - title: "High-contrast Imager for Complex Aperture Telescopes (HICAT): II. Design overview and first light results"
-  - firstauthor: N'Diaye
-  - year: 
-  - link: https://spie.org/Publications/Proceedings/Paper/10.1117/12.2056694
-  
-  - title: "High-contrast imager for complex aperture telescopes (HiCAT): 3. first lab results with wavefront control"
-  - firstauthor: N'Diaye
-  - year:
-  - link: "https://spie.org/Publications/Proceedings/Paper/10.1117/12.2188497"
-  
-  - title: High-contrast imager for Complex Aperture Telescopes (HiCAT). 4. Status and wavefront control development
-  - firstauthor: Leboulleux
-  - year:
-  - link: "https://spie.org/Publications/Proceedings/Paper/10.1117/12.2233640"
-  
-  - title: Comparison of wavefront control algorithms and first results on the high-contrast imager for complex aperture telescopes (hicat) testbed,
-  - firstauthor: Leboulleux
-  - year: 
-  - link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10562/2296154/Comparison-of-wavefront-control-algorithms-and-first-results-on-the/10.1117/12.2296154.full?SSO=1"
+- title: "High-contrast imager for complex aperture telescopes (HiCAT): 1. testbed design"
+- firstauthor: N'Diaye
+- year:
+- link: "https://spie.org/Publications/Proceedings/Paper/10.1117/12.2023718"
+
+- title: "High-contrast Imager for Complex Aperture Telescopes (HICAT): II. Design overview and first light results"
+- firstauthor: N'Diaye
+- year:
+- link: https://spie.org/Publications/Proceedings/Paper/10.1117/12.2056694
+
+- title: "High-contrast imager for complex aperture telescopes (HiCAT): 3. first lab results with wavefront control"
+- firstauthor: N'Diaye
+- year:
+- link: "https://spie.org/Publications/Proceedings/Paper/10.1117/12.2188497"
+
+- title: High-contrast imager for Complex Aperture Telescopes (HiCAT). 4. Status and wavefront control development
+- firstauthor: Leboulleux
+- year:
+- link: "https://spie.org/Publications/Proceedings/Paper/10.1117/12.2233640"
+
+- title: Comparison of wavefront control algorithms and first results on the high-contrast imager for complex aperture telescopes (hicat) testbed,
+- firstauthor: Leboulleux
+- year:
+- link: "https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10562/2296154/Comparison-of-wavefront-control-algorithms-and-first-results-on-the/10.1117/12.2296154.full?SSO=1"
