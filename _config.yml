@@ -1,5 +1,45 @@
-name: High Contrast and Adaptive Optics laboratory testbeds community website
-markdown: kramdown
-permalink: /news/:year/:month/:day/:title
+title: CAOTIC
+description: High Contrast and Adaptive Optics laboratory testbeds community website
+keywords: blog,css,html,php
+author: "Iva Laginja"
 
-theme: jekyll-theme-leap-day
+#title hide and show
+hide: (つェ⊂)我藏好啦
+show: ´∇｀ 呀被发现啦~ 
+
+baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "highconaotools.github.io" # change this to the base hostname & protocol for your site
+buildtime: "1514736000" #博客建立时的时间戳 可进入https://tool.lu/timestamp/将博客建立时的日期转换成时间戳
+           #The timestamp at the time of blog establishment can be entered at https://tool.lu/timestamp/to convert the date at the time of blog establishment into a timestamp.
+
+PJAX: true # PJAX is not compatible with the commenting systme. If you wn't have embedded comments, we recommend to set this to "true".
+
+paginate: 8 # maximum number of posts on one page, if more exist will do subpages
+paginate_path: "page:num"
+
+background: https://api.dujin.org/bing/1920.php # background image right below the header
+theme_color: 546E7A # Blog top column color, fill in the color code ** but don't enter # **
+
+# hydrogen-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+hydrogen-blog:
+  date_format: "%b %-d, %Y"
+
+#MathJax switch
+MathJax: false
+
+#install emoji
+plugins:
+  - jemoji
+
+# social account
+image:
+twitter:
+  username:
+#  site:
+facebook:
+  #publisher: null
+  #profile_id: null
+  app_id: null
+  #authors: null
+#  admins:

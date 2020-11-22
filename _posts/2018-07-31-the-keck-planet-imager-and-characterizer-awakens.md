@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "The Keck Planet Imager and Characterizer Awakens"
-date: 2018-07-31
+title: The Keck Planet Imager and Characterizer Awakens
+tags: keck
+stickie: false
 ---
 *Nemanja Jovanovic, Caltech*
 
