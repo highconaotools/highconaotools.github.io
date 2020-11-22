@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: About
 sitetime: display
 permalink: /about.html
 ---
