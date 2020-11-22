@@ -2,7 +2,7 @@
 layout: post
 title: Exciting news from the SCExAO instrument
 tags: scexao
-stickie: false
+stickie: true
 ---
 *Sébastien Vievard, Julien Lozi, Subaru telescope*
 

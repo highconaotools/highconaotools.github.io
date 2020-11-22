@@ -2,7 +2,6 @@
 layout: post
 title: The Keck Planet Imager and Characterizer Awakens
 tags: keck
-stickie: false
 ---
 *Nemanja Jovanovic, Caltech*
 
