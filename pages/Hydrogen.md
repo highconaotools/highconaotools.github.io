@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Billboard
+title: Hi
 tagline: Biu~
 ---
 
-<div style="text-align:center">:shit:nothing...</div>
+Lmao
 
 [返回主页]({{ site.url }})
