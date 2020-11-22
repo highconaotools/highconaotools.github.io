@@ -17,7 +17,7 @@ PJAX: true # PJAX is not compatible with the commenting systme. If you wn't have
 paginate: 8 # maximum number of posts on one page, if more exist will do subpages
 paginate_path: "page:num"
 
-background: https://api.dujin.org/bing/1920.php # background image right below the header
+background: https://www.stsci.edu/files/live/sites/www/files/home/stsci-research/research-topics-and-programs/russell-b-makidon-optics-laboratory/_images/P1130829.jpg?t=tn1200 # background image right below the header
 theme_color: 546E7A # Blog top column color, fill in the color code ** but don't enter # **
 
 # hydrogen-blog date format
