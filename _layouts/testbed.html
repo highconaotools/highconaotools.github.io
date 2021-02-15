@@ -1,0 +1,107 @@
+---
+layout: default
+---
+{% assign testbed = site.data.testbeds[page.testbed] %}
+{% assign shortname = testbed.shortname %}
+{% assign fullname = testbed.fullname %}
+{% assign institute = testbed.institute %}
+{% assign contact = testbed.contact %}
+{% assign talkpeople = testbed.talkpeople %}
+{% assign sciencefocus = testbed.sciencefocus %}
+{% assign environment = testbed.environment %}
+{% assign hardwareitems = testbed.hardwareitems %}
+{% assign currentstatus = testbed.currentstatus %}
+{% assign software = testbed.software %}
+{% assign shared = testbed.shared %}
+{% assign papers = testbed.papers %}
+
+<h1> {{ fullname }} </h1>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-0pky"><span style="font-weight:bold">Testbed name</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Managing institution</span></th>
+  </tr>
+  <tr>
+    <td class="tg-0pky"> {{ shortname }} </td>
+    <td class="tg-0pky"> {{ institute }} </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">Contact person</span></td>
+    <td class="tg-0pky"><span style="font-weight:bold">People willing to give talks</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">
+        {% if contact.size == 1 %}
+            {{ contact[0].name }}
+        {% else %}
+            {% for item in contact %} 
+            <li>{{ item.name }}</li>
+            {% endfor %}
+        {% endif %}
+    </td>
+    <td class="tg-0pky"> 
+        {% if talkpeople.size == 1 %}
+            {{ talkpeople[0].name }}
+        {% else %}
+            {% for item in talkpeople %} 
+            <li>{{ item.name }}</li>
+            {% endfor %}
+        {% endif %}
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">Main scientific focus</span></td>
+    <td class="tg-0pky"><span style="font-weight:bold">Testbed environment</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"> {{ sciencefocus }} </td>
+    <td class="tg-0pky"> {{ environment }} </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">Key hardware items</span></td>
+    <td class="tg-0pky"><span style="font-weight:bold">Current status</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">
+      {% if hardwareitems.size == 1 %}
+          {{ hardwareitems[1] }}
+      {% else %}
+          {% for item in (1..hardwareitems.size) %} 
+          <li>{{ hardwareitems[item] }}</li>
+          {% endfor %}
+      {% endif %}
+    </td>
+    <td class="tg-0pky">{{ currentstatus }}</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">Software, languages</span></td>
+    <td class="tg-0pky"><span style="font-weight:bold">Is our software shared?</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">
+      {% if software.size == 1 %}
+          {{ software[1] }}
+      {% else %}
+          {% for item in (1..software.size) %} 
+          <li>{{ software[item] }}</li>
+          {% endfor %}
+      {% endif %}
+    </td>
+    <td class="tg-0pky">{{ shared }}</td>
+  </tr>
+</table>
+
+<p> </p>
+
+<div><span style="font-weight:bold">Reference papers:</span>
+  {% for paper in papers %}
+    <li><a href="{{ paper.link }}" target="_blank">{{ paper.title}}</a>, {{ paper.firstauthor }} et al. {{ paper.year }}</li>
+  {% endfor %}
+</div>
