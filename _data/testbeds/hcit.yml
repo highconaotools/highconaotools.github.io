@@ -1,0 +1,38 @@
+shortname: HCIT
+
+fullname: High Contrast Imaging Testbed Facility
+
+institute: NASA Jet Propulsion Laboratory
+
+contact:
+  - name: Camilo Mejia Prada
+    email: cprada@jpl.nasa.gov
+    github: 
+
+talkpeople:
+  - name: Nick Siegler
+    email: 
+    github: 
+  
+  - name: Camilo Mejia Prada
+    email: cprada@jpl.nasa.gov
+    github: 
+
+sciencefocus: High Contrast Imaging Technology Development
+
+environment: HCIT is a ISO 7 clean room (class 10000), with three optical tables. The optical tables are sits on Minus K's Passive Mechanical Vibration Isolators inside two vacuum chamber. The Chambers provide a space-like test environment (turbulence free and thermally stable). Each table has a supercontinuum laser sources, remote actuation and selection of optical elements, deformable mirrors, thermal sensors, local thermal control loops, silicon CCD/CMOS sensors and one of the tables has an Integrated Field Spectrometer as well.
+
+hardwareitems:
+  1: Vacuum Chamber
+  2: Remote Actuation
+  3: Supercontinuum Laser Sources
+  4: Minus K's Passive Mechanical Vibration Isolators
+  5: Deformable Mirrors
+  6: Integrated Field Spectrometer
+
+currentstatus: On activity with multiple of collaborations.
+
+software:
+  1: Python
+
+shared: No.

@@ -1,0 +1,44 @@
+shortname: SAINT
+
+fullname: Segmented Aperture Interferometric Nulling Testbed
+
+institute: NASA GSFC
+
+contact:
+  - name: Dr. Brian Hicks
+    email: brian.a.hicks@nasa.gov
+    github: 
+
+talkpeople:
+  - name: Dr. Brian Hicks
+    email: brian.a.hicks@nasa.gov
+    github: 
+  
+  - name: TBD postdoc / grad student 
+    email: 
+    github: 
+
+sciencefocus: End-to-end segmented mirror and tiered wavefront sensing and control systems.
+
+environment: Hybrid ambient lab / low-pressure chamber.
+
+hardwareitems:
+  1: Macro active segmented primary mirror and LOWFS,
+  2: Fine pointing system,
+  3: Achromatic phase shifters,
+  4: Segmented deformable mirror,
+  5: Delay stage,
+  6: OBWFS.
+
+currentstatus: Subsystem development and testing.
+
+software:
+  1: C/C++
+
+shared: Plan to be established.
+
+papers:
+  - title: 'The segmented aperture interferometric nulling testbed (SAINT) III: control systems analysis and preliminary results'
+    firstauthor: Brian A. Hicks
+    year: 2018
+    link: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/10698/106986M/The-segmented-aperture-interferometric-nulling-testbed-SAINT-III--control/10.1117/12.2318756.short?SSO=1

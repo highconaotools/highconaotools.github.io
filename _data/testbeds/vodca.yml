@@ -1,0 +1,63 @@
+shortname: VODCA
+
+fullname: Vortex Optical Demonstrator for Coronagraphic Applications
+
+institute: Space science, Technologies, and Astrophysics Research (STAR) Institute, University of Liège
+
+contact:
+  - name: Olivier Absil
+    email: olivier.absil@uliege.be
+    github: 
+
+talkpeople:
+  - name: Olivier Absil
+    email: olivier.absil@uliege.be
+    github: 
+  
+  - name: Gilles Orban de Xivry
+    email: 
+    github: 
+  
+  - name: Christian Delacroix
+    email: 
+    github: 
+
+sciencefocus: 'The prime purpose of VODCA is to test and validate manufactured infrared vortex phase masks (and in particular Annular Groove Phase Masks) at the appropriate wavelengths: near- to mid- infrared corresponding to the H, K, L and M bands (1.5 to 4.6 um).'
+
+environment: VODCA is located in a ISO 7 clean room (class 10000). The optical bench sits on an active vibration isolation system.
+
+hardwareitems:
+  1: supercontinuum laser source delivering single-mode broadband beam from approx. 1.5 to 4 um.
+  2: infrared InSb camera from FLIR, cooled to 77K and operating in the 1.5-5.5um wavelength range
+  3: ALPAO deformable mirror with 97 actuators
+  4: QCL laser producing a single-mode narrow-line emission at around 4.6 um
+
+currentstatus: '<p>In operation. The bench allows to reach the intrinsic on-axis rejection limit of the manufactured Annular Groove Phase Masks (up to a few 1000:1 in broad L-band).</p>
+<p>Future of the bench: 1) testing of newly manufactured AGPM, 2) new apodization and wavefront sensing techniques, 3) charge 4 and beyond vortices testing.</p>'
+
+software:
+  1: Python
+  2: Labview
+
+shared: Not currently but could be if useful.
+
+papers:
+  - title: The VORTEX coronagraphic test bench
+    firstauthor: Jolivet
+    year: 2014
+    link: https://ui.adsabs.harvard.edu/abs/2014SPIE.9151E..5PJ/abstract
+  
+  - title: Three years of harvest with the vector vortex coronagraph in the thermal infrared
+    firstauthor: Absil
+    year: 2016
+    link: https://arxiv.org/abs/1607.05003
+  
+  - title: Post-coronagraphic PSF sharpening with the vortex coronagraph
+    firstauthor: Orban de Xivry
+    year: 2017
+    link: https://orbi.uliege.be/handle/2268/213808
+  
+  - title: L- and M-band annular groove phase mask in lab performance assessment on the vortex optical demonstrator for coronagraphic applications
+    firstauthor: Jolivet
+    year: 2019
+    link: https://ui.adsabs.harvard.edu/abs/2019JATIS...5b5001J/abstract
