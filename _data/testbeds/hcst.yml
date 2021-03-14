@@ -1,0 +1,54 @@
+shortname: HCST
+
+fullname: High Contrast High- Resolution Spectroscopy for Segmented telescopes Testbed
+
+institute: Caltech
+
+contact:
+  - name: Dimitri Mawet
+    email: dmawet@astro.caltech.edu
+    github: 
+
+talkpeople:
+  - name: Dimitri Mawet
+    email: dmawet@astro.caltech.edu
+    github: 
+  
+  - name: Nemanja Jovanovic
+    email: 
+    github: 
+  
+  - name: Garreth Ruane
+    email: 
+    github: 
+  
+  - name: Daniel Echeverri
+    email: 
+    github: 
+  
+  - name: Jorge Llop
+    email: 
+    github: 
+
+sciencefocus: High Contrast Spectroscopy for Segmented Telescopes, Apodized Vortex Coronagraph for HabEx, LUVOIR, Keck and TMT.
+
+environment: In air, active vibration isolation, passive thermal isolation (double enclosure).
+
+hardwareitems:
+  1: Dual source (start+planet).
+  2: 2 NKT supercontinuum white light lasers.
+  3: <10 nm rms Au-coated OAPs from Nu Tek (IR compatible).
+  4: 1 BMC kilo-DM (slot for 2nd kDM).
+  5: Apodized Vortex Coronagraph (compatible with any 3-plane coronagraphs).
+  6: Reflective apodizer.
+  7: Reflective Lyot stop for Lyot-based Low-Order Wavefront Sensing.
+  8: Andor Neo sCMOS camera.
+  9: Fiber Injection Unit for High Dispersion Coronagraphy.
+
+currentstatus: Operational, first light Spring 2018, first dark hole June 2018.
+
+software:
+  1: Linux
+  2: Matlab
+
+shared: To be released on Github in the near future.

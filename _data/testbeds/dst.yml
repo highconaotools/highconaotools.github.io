@@ -1,0 +1,47 @@
+shortname: DST
+
+fullname: Decadal Survey Testbed
+
+institute: NASA Jet Propulsion Laboratory
+
+contact:
+  - name: Brendan Crill
+    email: brendan.p.crill@jpl.nasa.gov
+    github: 
+
+talkpeople:
+  - name: Brendan Crill
+    email: brendan.p.crill@jpl.nasa.gov
+    github: 
+
+  - name: Nick Siegler
+    email: 
+    github: 
+  
+  - name: Garreth Ruane
+    email: 
+    github:
+
+sciencefocus: "The Decadal Survey Testbed (DST) enables demonstration of coronagraph technologies required to directly image and spectrally characterize Earth-like exoplanets with future space telescopes (for example the decadal mission concept studies the Habitable Exoplanet Observatory (HabEx) and the Large Ultraviolet, Optical, Infrared Surveyor (LUVOIR)). For this purpose, the testbed is designed to provide a contrast noise floor at the 1e-10 level, or below. The testbed is being commissioned in three phases that will enable demonstrations with increasing complexity: 1. a clear aperture, 2. a static segmented/obscured pupil, and 3. A segmented/obscured pupil in a dynamic environment. The testbed is commissioned by the NASA Exoplanet Exploration Program (ExEP) at the High Contrast Imaging Testbed (HCIT) laboratory at NASA’s Jet Propulsion Laboratory and is open to PI-led investigations funded by NASA’s Strategic Astrophysics Technology (SAT) program."
+
+environment: The DST is located in the HCIT clean-room, temperature-stabilized at 10 mK, seismically isolated to limit vibrations. Finally, the testbed is located in a vacuum chamber (1 mTorr capability) to replicate the conditions of future large space-based telescopes.
+
+hardwareitems:
+  1: "Several possibilities for stellar source simulator: Monochromatic (635, 785, 809, and 835 nm wavelengths), Large bandwidths (2, 10, and 20% BW around 800 nm) + Medium and high power super-continuum sources available."
+  2: Clear aperture and a classical Lyot coronagraph (for the Phase I)
+  3: An active steering mirror to actively correct for residual tip/tilt errors
+  4: 2 deformable mirrors to control the wavefront. Xinetics and Boston Micromachine Deformable Mirrors can be used for comparison.
+
+currentstatus: "Currently in phase I, obtaining performance with a clear aperture. Phase II will be achieved in CY19: a segmented/obscured mask will be added to simulate the segmentation pattern of a large space telescope mirror."
+
+software:
+  1: FALCO (Matlab)
+  2: Others
+
+shared: Yes for Falco, no for the others.
+
+papers:
+  - title: "Key Technology Challenges for the Study of Exoplanets and the Search for Habitable Worlds"
+    firstauthor: Crill
+    year: 2018
+    link: https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1803.04457&sa=D&sntz=1&usg=AFQjCNED0QDsfe6MiErcZvnOIHzwyM2beA

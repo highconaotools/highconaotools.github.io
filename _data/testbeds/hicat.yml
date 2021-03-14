@@ -6,13 +6,16 @@ institute: Space Telescope Science Institute
 
 contact:
   - name: Remi Soummer
+    email: soummer@stsci.edu
     github: soummer
 
 talkpeople:
   - name: Remi Soummer
+    email: soummer@stsci.edu
     github: soummer
 
   - name: Iva Laginja
+    email: 
     github: ivalaginja
 
 sciencefocus: HiCAT is designed to provide an integrated solution for high-contrast imaging for unfriendly aperture geometries in space, such as LUVOIR-like pupils. Such pupils include segment gaps, spiders and central obstruction. More precisely, HiCAT aims at developing methods for starlight and diffraction suppression system and wavefront sensing and control tools.

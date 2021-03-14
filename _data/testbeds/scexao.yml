@@ -1,0 +1,60 @@
+shortname: SCExAO
+
+fullname: Subaru Coronagraphic Extreme Adaptive Optics
+
+institute: National Astronomical Observatory of Japan - Subaru Telescope
+
+contact:
+  - name: Julien Lozi
+    email: lozi@naoj.org
+    github: 
+  
+  - name: Olivier Guyon
+    email: guyon@naoj.org
+    github: 
+
+talkpeople:
+  - name: Julien Lozi
+    email: lozi@naoj.org
+    github: 
+  
+  - name: Olivier Guyon
+    email: guyon@naoj.org
+    github: 
+  
+  - name: Sébastien Vievard (starting March 2018)
+    email: 
+    github: 
+  
+  - name: Ananya Sahoo (PhD student)
+    email: 
+    github: 
+
+sciencefocus: SCExAO is a multipurpose and modular instrument and testbed on the Subaru Telescope, performing high-contrast imaging science (exoplanets, disks, dust shells, resolved stars, etc.) as well as testing new technologies (hardware, software, algorithms) for future high-contrast instruments on Giant Segmented Mirror Telescopes.
+
+environment: SCExAO is installed at the Subaru Telescope, in a fairly stable environment. It can be used on-sky for observations, or as a testbed using various calibration sources (supercontinuum, lasers, tunable filters). The instrument is covered to protect from dust and stray light. The DM is in a sealed chamber to keep the humidity below 15%. The instrument is partially isolated from the Nasmyth Platform using damping feet, reducing laboratory vibrations below 1 mas rms. Various parts of the instrument are motorized, to be fully controller remotely from anywhere.
+
+hardwareitems:
+  1: A supercontinuum coupled to a photonic cristal fiber simulates the star, from 600 nm to 2.5 um.
+  2: A fixed pupil mask simulates the Subaru Telescope pupil with the secondary obstruction and the spiders. This mask could be changed in the future for the TMT pupil for example.
+  3: The wavefront control is performed using a 2k MEMS DM.
+  4: The light is split between visible (600-950nm) and NIR (950nm-2.5um).
+  5: A pyramid WFS performs the wavefront correction at up to 3.6kHz (typ. 2kHz) using the EMCCD OCAM2K, using visible light (700-900 um).
+  6: A range of coronagraphs (Lyot coronagraphs, H-band Vortex, H-band 8OPM+MPIAA, PIAACMC, vAPP, shaped pupil) can be used to block the starlight/create dark zones.
+  7: 'Various cameras/spectrographs/IFU can be used in NIR: an internal SWIR camera (C-RED2) for focal/pupil imaging (used for speckle nulling for ex.), the IFU CHARIS, the MKIDS Exoplanet Camera (MEC), fast NIR cameras (SAPHIRA/C-RED ONE), post-coronagraphic high-resolution spectrography with IRD, nulling interferometry with GLINT.'
+  8: A Lyot-Stop LOWFS can be used to control low-order modes in the coronagraphs.
+  9: 'In visible several modules can be used in parallel: the differential imager VAMPIRES (polarization or H-alpha imaging), the interferometer FIRST, or the visible IFU RHEA.'
+
+currentstatus: SCExAO is open for science at the telescope, mostly using CHARIS and VAMPIRES. The PyWFS delivers Strehl ratios between 80 and 90% routinely now, in good seeing conditions. Recent developments in predictive control showed good results on-sky, improving the correction in high wind-speed conditions. MEC is arriving in March 2018. The fiber injection for IRD will be installed mid-2018. 2 C-RED 2 cameras will be installed before mid-2018, to replace the internal SWIR camera for speckle nulling, and the camera for the LLOWFS. Optimized PIAACMC masks should be installed around the same time. The next engineering observations are planned for the end of June 2018.
+
+software:
+  1: C
+  2: Python
+
+shared: Yes [link] [link]
+
+papers:
+  - title: Various reference papers.
+    firstauthor: 
+    year: 
+    link: https://subarutelescope.org/jp/

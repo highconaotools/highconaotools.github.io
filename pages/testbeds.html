@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Testbeds
-tagline: Testbeds part from the community
+tagline: Testbeds being part of the community
 permalink: /testbeds
 ---
 {% assign testbeds = site.data.testbeds %}
@@ -21,7 +21,7 @@ permalink: /testbeds
 			<th class="tg-0pky"><span style="font-weight:bold">Institution</span></th>
 			<th class="tg-0pky"><span style="font-weight:bold">PI</span></th>
 		</tr>
-        {% for testbed in testbeds %}
+        {% for testbed in testbeds %} {% if testbed[0] != 'testbed_template' %}
             <tr>
                 <td class="tg-0pky"><a href="/testbeds/{{ testbed[0] }}.html">{{ testbed[1].shortname }}</a></td>
                 <td class="tg-0pky">{{ testbed[1].institute }}</td>
@@ -35,6 +35,7 @@ permalink: /testbeds
                     {% endif %}
                 </td>
             </tr>
+            {% endif %}
         {% endfor %}
 	</table>
 </ul>

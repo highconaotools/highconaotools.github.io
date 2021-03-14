@@ -1,0 +1,43 @@
+shortname: LOOPS
+
+fullname: LAM-ONERA On-sky Pyramid Sensor
+
+institute: Laboratoire d'Astrophysique de Marseille (LAM) / ONERA
+
+contact:
+  - name: Pierre Janin-Potiron
+    email: pierre.janin-potiron@lam.fr
+    github: 
+
+talkpeople:
+  - name: Pierre Janin-Potiron
+    email: pierre.janin-potiron@lam.fr
+    github: 
+
+sciencefocus: LOOPS is an adaptive optics facility based at LAM. It provides a calibrated environment for research and development on the Pyramid Wavefront Sensor (PWFS) and Fourier-based Wavefront Sensor (FWFS). Among the topics related to the PWFS, the optical gain variation or the development of new reconstructors are of particular interest.
+
+environment: The LOOPS tesbed is located in a grey room at LAM. The temperature and humidity are not controlled. An enclosure is planned to be installed on the bench to prevent from dust and parasite light.
+
+hardwareitems:
+  1: A classical pyramid path using a four-sided monolithic pyramid wavefront sensor. The four sub-pupils are then re-imaged on an OCAM2 camera.
+  2: A Fourier-based warfront sensing path using a Spatial Light Modulator (SLM) to create any shape of focal phase mask and test new design of WFS. A second OCAM2 camera is used to measure the signal in the pupil plane.
+  3: A Shack-Hartman path to provide a wavefront sensing reference in order to compare the results obtained with the two other WFS.
+  4: An imaging path playing the role of the science camera where the closed-loop PSF is observed and the Sthrel ratio can be computed.
+
+currentstatus: The bench is actually being re-aligned after not having been used for a while. A precise description of the bench (e.g. phase error at pupil planes, NCPA, Strehl ratio) will be presented in a paper in the months to come.
+
+software:
+  1: Matlab (OOMAO)
+
+shared: GitHub link
+
+papers:
+  - title: Optimized calibration of the adaptive optics system on the LAM Pyramid bench
+    firstauthor: Bond
+    year: 2017
+    link: http://research.iac.es/congreso/AO4ELT5//media/proceedings/proceeding-039.pdf
+  
+  - title: DEVELOPMENT OF A PYRAMID WAVEFRONT SENSOR
+    firstauthor: El Hadi
+    year: 2013
+    link: http://ao4elt3.arcetri.astro.it/proceedings/fulltext_13429.pdf

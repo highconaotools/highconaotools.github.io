@@ -1,0 +1,61 @@
+shortname: THD2
+
+fullname: Très Haut Dynamique 2 bench
+
+institute: Observatoire de Paris
+
+contact:
+  - name: Raphaël Galicher
+    email: raphael.galicher@obspm.fr
+    github: 
+
+talkpeople:
+  - name: Raphaël Galicher
+    email: raphael.galicher@obspm.fr
+    github: 
+
+sciencefocus: 'Comparison of very high contrast imaging techniques for ground- and space-based telescopes: coronagraphy, apodization, wavefront sensing, DM controls, coherent differential imaging at 1e-9 contrast levels from 500 to 900 nm.'
+
+environment: Clean room, controlled in temperature and humidity.
+
+hardwareitems:
+  1: 3 BMC DMs in cascades
+  2: one TT mirror
+  3: phase masks coronagraphs (FQPM, EOPM, vortex, DZPM, SLPM, and others)
+  4: 3 laser diodes (640nm, 700nm, 785nm)
+  5: one supercontinuum source (with lots of narrow/broad filters from 500nm to 900nm)
+
+currentstatus: On activity with multiple of collaborations (see website).
+
+software:
+  1: Labview for the bench control (motors, DMs, etc)
+  2: IDL for calculations
+
+shared: It could be but not sure how useful to another bench it can be.
+
+papers:
+  - title: 
+    firstauthor: 
+    year: 
+    link: https://thd-bench.lesia.obspm.fr/publications-16/
+  
+  - title: 'Current limitation of the THD2 bench: the scatter issue'
+    firstauthor: Potier
+    year: 2018
+    link: https://ui.adsabs.harvard.edu/abs/2018SPIE10698E..6GP/abstract
+  
+  - title: Active minimization of non-common path aberrations in long-exposure imaging of exoplanetary systems
+    firstauthor: Singh
+    year: 2019
+    link: https://ui.adsabs.harvard.edu/abs/2019A%26A...631A.106S/abstract
+  
+  - title: Exoplanet direct imaging in ground-based conditions on THD2 bench
+    firstauthor: Potier
+    year: 2019
+    link: https://ui.adsabs.harvard.edu/abs/2019arXiv191009064P/abstract
+  
+  - title: 'Comparing focal plane wavefront control techniques: Numerical simulations and laboratory experiments'
+    firstauthor: Potier
+    year: 2020
+    link: https://ui.adsabs.harvard.edu/abs/2020A%26A...635A.192P/abstract
+  

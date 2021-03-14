@@ -1,0 +1,59 @@
+shortname: SPEED
+
+fullname: Segmented Pupil Experiment for Exoplanet Detection
+
+institute: Laboratoire Lagrange (Nice, France)
+
+contact:
+  - name: Patrice Martinez
+    email: patrice.martinez@oca.eu
+    github: 
+  
+  - name: Olivier Preis
+    email: olivier.preis@oca.eu
+    github: 
+
+talkpeople:
+  - name: Martinez Patrice
+    email: patrice.martinez@oca.eu
+    github: 
+
+sciencefocus: High-contrast imaging at very small IWA.
+
+environment: ISO 7 room.
+
+hardwareitems:
+  1: IRIS AO segmented DM.
+  2: 2 Boston M. DMs.
+  3: PIAACMC.
+  4: SCC.
+  5: SCC-PS.
+  6: ZELDA-PS.
+
+currentstatus: AIT (see website).
+
+software:
+  1: Matlab
+
+shared: In development.
+
+papers:
+  - title: Project papers
+    firstauthor: 
+    year: 
+    link: https://lagrange.oca.eu/fr/publications-speed
+  
+  - title: The Segmented Pupil Experiment for Exoplanet Detection (SPEED). Advances and first light with segments cophasing
+    firstauthor: Janin-Potiron
+    year: 2018
+    link: https://ui.adsabs.harvard.edu/abs/2018sf2a.conf..283J/abstract
+  
+  - title: Design, specification, and manufacturing of a PIAACMC for the SPEED testbed
+    firstauthor: Martinez
+    year: 2018
+    link: https://ui.adsabs.harvard.edu/abs/2018SPIE10702E..43M/abstract
+  
+  - title: 'An end-to-end Fresnel propagation model for SPEED: PIAACMC implementation and performance'
+    firstauthor: Beaulieu
+    year: 2018
+    link: https://ui.adsabs.harvard.edu/abs/2018SPIE10700E..3OB/abstract
