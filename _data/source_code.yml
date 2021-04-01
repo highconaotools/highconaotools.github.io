@@ -1,0 +1,49 @@
+# - name: 
+#   description: 
+#   code: 
+#     - 
+#     - 
+#   paper: 
+#     - 
+#     - 
+#   documentation: 
+#     - 
+#     - 
+
+- name: Poppy
+  description: optical propagation framework
+  documentation: 
+    - https://poppy-optics.readthedocs.io/en/stable/
+
+- name: HCIPy
+  description: 'high contrast image propagation: coronagraphs, deformable mirrors, wavefront sensors, AO and more'
+  documentation: 
+    - https://hcipy.readthedocs.io/en/latest/
+
+- name: pyZELDA
+  description: analysis for Zernike wavefront sensors
+  code: 
+    - https://github.com/avigan/pyZELDA
+
+- name: VIP
+  description: Vortex Image Processing package for high-contrast direct imaging
+  code: 
+    - https://github.com/vortex-exoplanet/VIP
+  paper: 
+    - https://arxiv.org/abs/1705.06184
+  documentation: 
+    - https://vip.readthedocs.io/en/latest/
+
+- name: pyKLIP
+  description: library for direct imaging of exoplanets and disks
+  code: 
+    - https://bitbucket.org/pyKLIP/pyklip/src/master/
+  documentation: 
+    - https://pyklip.readthedocs.io/en/latest/
+
+- name: PynPoint
+  description: package for processing and analysis of high-contrast imaging data of faint companions and circumstellar disks
+  code: 
+    - https://github.com/PynPoint/PynPoint
+  documentation: 
+    - https://pynpoint.readthedocs.io/en/latest/
