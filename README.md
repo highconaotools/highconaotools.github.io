@@ -41,4 +41,4 @@ https://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/
 1. cd into the repository
 2. check out the branch that you want to build locally
 3. `$ jekyll serve --livereload`
-4. copy-paste the URL that appears in the terminal into a browser window (e.g. `http://127.0.0.1:4000/`)
+4. copy-paste the server address that appears in the terminal into a browser window (e.g. `http://127.0.0.1:4000/`)
