@@ -1,0 +1,61 @@
+---
+layout: page
+title: Resources
+tagline: 
+permalink: /resources
+---
+{% assign source_code = site.data.source_code %}
+
+
+<h1>Git</h1>
+
+<p><a href="/resources/git_introductory.html">Introductory training on git for astronomers</a> - by Iva Laginja, final year PhD student and Pablo Robles, first year PhD student, both at ONERA/LAM in France</p>
+
+
+<h1>Useful python packages</h1>
+
+{% for scode in source_code %}
+    <p>
+        <b>{{ scode.name }}</b> - {{ scode.description }}
+        <ul>
+            {% if scode.code != nil %}
+                {% if scode.code.size == 1 %}
+                    <li>Code: <a href="{{ scode.code }}" target="_blank">{{ scode.code }}</a></li>
+                {% else %}
+                    <li>Code:</li>
+                    <ul>
+                        {% for item in scode.code %} 
+                            <li><a href="{{ item }}" target="_blank">{{ item }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endif %}
+
+            {% if scode.paper != nil %}
+                {% if scode.paper.size == 1 %}
+                    <li>Paper: <a href="{{ scode.paper }}" target="_blank">{{ scode.paper }}</a></li>
+                {% else %}
+                    <li>Paper:</li>
+                    <ul>
+                        {% for item in scode.paper %} 
+                            <li><a href="{{ item }}" target="_blank">{{ item }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endif %}
+
+            {% if scode.documentation != nil %}
+                {% if scode.documentation.size == 1 %}
+                    <li>Documentation: <a href="{{ scode.documentation }}" target="_blank">{{ scode.documentation }}</a></li>
+                {% else %}
+                    <li>Documentation:</li>
+                    <ul>
+                        {% for item in scode.documentation %} 
+                            <li><a href="{{ item }}" target="_blank">{{ item }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endif %}
+        </ul>
+    </p>
+{% endfor %}
