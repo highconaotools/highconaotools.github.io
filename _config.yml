@@ -4,8 +4,8 @@ keywords: blog,css,html,php
 author: "Iva Laginja"
 
 #title hide and show
-hide: (つェ⊂)我藏好啦
-show: ´∇｀ 呀被发现啦~ 
+#hide:
+#show:
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "highconaotools.github.io" # change this to the base hostname & protocol for your site
