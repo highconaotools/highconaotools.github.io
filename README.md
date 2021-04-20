@@ -9,10 +9,10 @@ https://sites.google.com/view/highcontrastlabs/
 
 ### Initial setup
 
-If you use conda, make sure you have deactivated all your environments (including `base`) by doing `$ conda deactivate` often enough.
+If you use conda, make sure you have deactivated all your environments (including `base`) by doing `$ conda deactivate`.
 
 *On a Mac*:
-1. Install homebrew following the instructions on this page:  
+1. Install homebrew following the instructions on this page (if you don't have sudo privileges, get in touch with your machine manager):  
 https://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/
 
 2. Install the package manager rbenv (more on rbenv [here](https://github.com/rbenv/rbenv) ) 
@@ -30,7 +30,7 @@ https://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/
 `$ rbenv local 2.7.2`
 
 7. Install bundler and jekyll  
-`$ gem install bundler jekyll`
+`$ gem install bundler jekyll jemoji`
 
 [Jekyll installation on Mac](https://jekyllrb.com/docs/installation/macos/)  
 [Jekyll general installation docs](https://jekyllrb.com/docs/installation/)
@@ -40,4 +40,5 @@ https://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/
 
 1. cd into the repository
 2. check out the branch that you want to build locally
-3. `$ jekyll serve`
+3. `$ jekyll serve --livereload`
+4. copy-paste the URL that appears in the terminal into a browser window (e.g. `http://127.0.0.1:4000/`)
