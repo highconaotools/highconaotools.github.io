@@ -21,15 +21,18 @@ https://osxdaily.com/2018/03/07/how-install-homebrew-mac-os/
 3. Set up rbenv in your shell  
 `$ rbenv init`
 
-4. Close and reopen your terminal for the changes to take effect
+4. Load rbenv automatically by appending the following to `~/.bash_profile`:
+`eval "$(rbenv init -)"`
 
-5. Install ruby (more about using rbenv on a Mac [here](https://medium.com/@norton.seanm/a-guide-to-using-rbenv-mac-4ca211b1c713))  
+5. Close and reopen your terminal for the changes to take effect
+
+6. Install ruby (more about using rbenv on a Mac [here](https://medium.com/@norton.seanm/a-guide-to-using-rbenv-mac-4ca211b1c713))  
 `$ rbenv install 2.7.2`
 
-6. Set your local ruby version to use  
+7. Set your local ruby version to use  
 `$ rbenv local 2.7.2`
 
-7. Install bundler and jekyll  
+8. Install bundler and jekyll  
 `$ gem install bundler jekyll jemoji`
 
 [Jekyll installation on Mac](https://jekyllrb.com/docs/installation/macos/)  
