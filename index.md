@@ -1,5 +1,6 @@
 ---
 layout: home
+title: CAOTIC
 ---
 
 # Welcome to the high contrast testbed community homepage!
